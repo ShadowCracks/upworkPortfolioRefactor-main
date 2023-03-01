@@ -43,14 +43,13 @@ const Home: NextPage = () => {
         <ContactMe />
       </section>
       <Link href="#hero">
-        <footer className='sticky button-5 w-full cursor-pointer'>
-          <div className='flex items-center'>
+        <footer className='sticky button-5 w-full cursor-pointer absolute bottom-0'>
+          <div className='flex items-center justify-center w-full bg-[rgb(36,36,36)]'>
             <img
               className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0 cursor-pointer'
               src="https://i.imgur.com/Lue01ZI.jpg"
               alt=''
-              />
-
+            />
           </div>
         </footer>
       </Link>
