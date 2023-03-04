@@ -23,7 +23,7 @@ function WorkExperience({ }: Props) {
       </h3>
 
 
-      <div className='mt-24 w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
+      <div className='mt-26 md:absolute md:top-24 md:h-[80%]  md:w-1/2 w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#F7AB0A]/80'>
         <ExperienceCard />
         <ExperienceCard4 />
         <ExperienceCard2 />
